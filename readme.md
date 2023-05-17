@@ -38,5 +38,11 @@ Printed results:
 * character ASCII index in decimal
 * format and path to image sample
 
-Author: Kostyantyn Chernyk
-chernykko@gmail.com
+## Train model
+
+If you want to work on model itself, consider downloading 
+https://www.kaggle.com/datasets/kostyantynchernyk/handwritten-digits-and-letters
+dataset.
+Not much changed here, 0-9 labels represent respective digits, 
+letter labels, however, were incremented by 10 to avoid conflict with digits, 
+e.g. 10 is A, 11 is B ... 35 is Z
